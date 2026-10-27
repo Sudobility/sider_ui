@@ -18,6 +18,8 @@ export default defineConfig([
       globals: globals.browser,
     },
     rules: {
+      'preserve-caught-error': 'off',
+      'no-useless-assignment': 'off',
       '@typescript-eslint/no-explicit-any': 'off',
     },
   },
